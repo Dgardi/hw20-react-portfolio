@@ -3,7 +3,9 @@ import selfie from "../../assets/selfie.png"
 
 export default function About() {
   return (
+
     <div>
+      <p className="bigName">DAVID GARDINER </p>
       <img src= {selfie} alt="Selfie" className="selfie"/>
 
       <h1>About Me</h1>

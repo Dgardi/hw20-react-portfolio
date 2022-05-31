@@ -44,7 +44,7 @@ import { validateEmail} from '../../utils/helpers'
     <div>
       <h1>Contact Page</h1>
       <section>
-        <form id="contact-form" onSubmit ={handleFormSubmit} >
+        <form id="contact-form" onSubmit ={handleFormSubmit}>
           <div>
             <label htmlFor="name"> Name:</label>
             <input
@@ -72,7 +72,7 @@ import { validateEmail} from '../../utils/helpers'
               onBlur = {handleInputChange}
               />
             </div>
-          
+          <button type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
         </section>
 

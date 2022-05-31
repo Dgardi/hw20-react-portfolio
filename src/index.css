@@ -5,6 +5,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color:blueviolet;
   }
   
   code {
@@ -12,3 +13,54 @@ body {
       monospace;
   }
   
+  a:hover {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+  }
+
+
+  
+  .bigName {
+    font-size: 100px;
+    
+  }
+
+  .footerUl {
+  
+    
+  }
+
+  .footerIcons {
+    list-style: none;
+    font-size: larger;
+    display: inline-flex;
+    padding-left: 22%;
+
+
+    
+    
+    
+  }
+  
+  .selfie {
+    margin-left: 25%;
+    max-width: 300px;
+  
+  }
+
+  .test {
+    max-width: max-content;
+    display: inline;
+
+  }
+
+  .testTwo {
+    max-width: max-content;
+    display: inline;
+  }
+  .project {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px;
+
+  }
